@@ -9,8 +9,8 @@ def index(request):
     return render(request, "index.html")
 
 
-#def db(request):
-
+def db(request):
+    return HttpResponse('db???!')
 #    greeting = Greeting()
 #    greeting.save()
 
